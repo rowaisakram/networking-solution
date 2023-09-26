@@ -9,10 +9,11 @@
   --gradient-color1: #f857a6;
   --gradient-color2: #ef3f6e;
   --text-color: #60697b;
+  --white-color: #ffff;
   --h1-font-size: 46px;
   --h2-font-size: 38px;
   --h3-font-size: 22px;
-  --h4-font-size: 1.15rem;
+  --h4-font-size: ;
   --h5-font-size: 23px;
   --h6-font-size: 16px;
   --body-font: 17px;
@@ -34,11 +35,12 @@
   word-spacing: normal;
 }
 .container {
-  max-width: 1320px;
+  width: clamp(320px, 90%, 1320px);
   margin: 0 auto;
 }
 body {
   font-family: var(--font-family);
+  background: rbga(var(--secondary-color), 1);
 }
 ul li {
   list-style: none;
@@ -51,10 +53,13 @@ a {
 }
 /*Font Sizes*/
 h1 {
-  font-size: var(--h1-font-size);
+  font-size: clamp(30px, 6vw, 46px);
+  font-weight: var(--normal-font-weight);
 }
 h2 {
   font-size: var(--h2-font-size);
+  font-weight: var(--normal-font-weight);
+  color: var(--primary-color);
 }
 h3 {
   font-size: var(--h3-font-size);
@@ -63,7 +68,8 @@ h4 {
   font-size: var(--h4-font-size);
 }
 h5 {
-  font-size: var(--h5-font-size);
+  font-size: clamp(14px, 4vw, 23px);
+  font-weight: var(--normal-font-weight);
 }
 h6 {
   font-size: var(--h6-font-size);
@@ -73,13 +79,29 @@ p {
 }
 /*Button*/
 .btn {
-  padding: 0.75rem 0;
+  font-family: var(--font-family);
+  padding: 20px 28px;
   font-weight: var(--normal-font-weight);
   border-radius: 0.4rem;
+  border: none;
+  font-size: clamp(12px, 4vw, 17px);
+  color: var(--white-color);
+}
+
+/*text color*/
+.text-gradient {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /*Flex*/
 .d-flex {
   display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }
 .flex-1 {
   flex: 1;
@@ -105,6 +127,7 @@ p {
 .align-items-end {
   align-items: flex-end;
 }
+
 /*Position*/
 .position-relative {
   position: relative;
