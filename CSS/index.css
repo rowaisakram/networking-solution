@@ -28,10 +28,10 @@
   background-color: hsla(0, 0%, 100%, 0.5);
   background-image: url("../assets/Img/bg22.png");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
-  height: 680px;
-  padding: 100px 0px;
+}
+.hero-section-wrapper .container > div:first-child {
+  padding: 80px 0px;
 }
 .hero-section-wrapper .container > div:first-child > div:first-child {
   padding-top: 100px;
@@ -50,5 +50,6 @@
 .hero-section-wrapper .container figure img {
   max-width: 100%;
   height: auto;
-  min-width: 400px;
+
+  margin-bottom: -10rem;
 }
