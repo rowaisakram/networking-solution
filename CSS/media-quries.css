@@ -1,0 +1,21 @@
+@media (max-width: 1200px) {
+  .navbar .container > div:nth-child(3) > ul > li:last-child {
+    display: none;
+  }
+}
+@media (max-width: 993px) {
+  .navbar .container > div:nth-child(3) > ul > li:last-child {
+    display: initial;
+  }
+  .navbar .container > div:nth-child(2) {
+    display: none;
+  }
+  .navbar {
+    margin: 0 150px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    margin: 0 20px;
+  }
+}

@@ -1,0 +1,7 @@
+.navbar {
+  padding: 30px 24px;
+  margin: 0 40px;
+}
+.navbar .container > div:nth-child(3) > ul {
+  gap: 20px;
+}

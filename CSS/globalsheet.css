@@ -8,13 +8,14 @@
   --bullet-color-bg: #e6e5f4;
   --gradient-color1: #f857a6;
   --gradient-color2: #ef3f6e;
-  --h1-font-size: 2.3rem;
-  --h2-font-size: 1.9rem;
-  --h3-font-size: 1.1rem;
+  --text-color: #60697b;
+  --h1-font-size: 46px;
+  --h2-font-size: 38px;
+  --h3-font-size: 22px;
   --h4-font-size: 1.15rem;
-  --h5-font-size: 0.95rem;
-  --h6-font-size: 0.8rem;
-  --body-font: 0.85rem;
+  --h5-font-size: 23px;
+  --h6-font-size: 16px;
+  --body-font: 17px;
   --normal-font-weight: 600;
   --light-font-weight: 500;
 }
@@ -38,12 +39,16 @@
 }
 body {
   font-family: var(--font-family);
-  font-size: var(--body-font);
 }
-li ul {
+ul li {
   list-style: none;
 }
-
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: var(--body-font);
+  font-weight: var(--normal-font-weight);
+}
 /*Font Sizes*/
 h1 {
   font-size: var(--h1-font-size);
@@ -62,6 +67,9 @@ h5 {
 }
 h6 {
   font-size: var(--h6-font-size);
+}
+p {
+  font-size: var(--body-font);
 }
 /*Button*/
 .btn {
@@ -88,6 +96,9 @@ h6 {
 .justify-content-around {
   justify-content: space-around;
 }
+.justify-content-end {
+  justify-content: flex-end;
+}
 .align-items-center {
   align-items: center;
 }
@@ -100,4 +111,7 @@ h6 {
 }
 .position-absolute {
   position: absolute;
+}
+.position-sticky {
+  position: sticky;
 }
