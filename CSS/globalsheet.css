@@ -10,6 +10,7 @@
   --gradient-color2: #ef3f6e;
   --text-color: #60697b;
   --white-color: #ffff;
+  --bg-light-color: #fefefe;
   --h1-font-size: 46px;
   --h2-font-size: 38px;
   --h3-font-size: 22px;
@@ -40,7 +41,6 @@
 }
 body {
   font-family: var(--font-family);
-  background: rbga(var(--secondary-color), 1);
 }
 ul li {
   list-style: none;
@@ -51,18 +51,25 @@ a {
   font-size: var(--body-font);
   font-weight: var(--normal-font-weight);
 }
+/*Background*/
+.light-bg {
+  background: var(--bg-light-color);
+}
+
 /*Font Sizes*/
 h1 {
   font-size: clamp(30px, 6vw, 46px);
   font-weight: var(--normal-font-weight);
 }
 h2 {
-  font-size: var(--h2-font-size);
+  font-size: clamp(30px, 5vw, 38px);
   font-weight: var(--normal-font-weight);
   color: var(--primary-color);
 }
 h3 {
   font-size: var(--h3-font-size);
+  font-weight: var(--normal-font-weight);
+  color: var(--primary-color);
 }
 h4 {
   font-size: var(--h4-font-size);
@@ -73,6 +80,7 @@ h5 {
 }
 h6 {
   font-size: var(--h6-font-size);
+  font-weight: var(--normal-font-weight);
 }
 p {
   font-size: var(--body-font);
@@ -86,6 +94,11 @@ p {
   border: none;
   font-size: clamp(12px, 4vw, 17px);
   color: var(--white-color);
+  transition: transform 0.3s ease;
+}
+.btn:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
 }
 
 /*text color*/
@@ -137,4 +150,19 @@ p {
 }
 .position-sticky {
   position: sticky;
+}
+/*text*/
+.text-center {
+  text-align: center;
+}
+/*SVG*/
+.solid-duo.text-grape-fuchsia .fill-secondary {
+  fill: var(--gradient-color1);
+}
+.solid-duo.text-grape-fuchsia .fill-primary {
+  fill: var(--bullet-color);
+}
+.icon-svg.icon-svg-sm {
+  width: 2.5rem;
+  height: 2.5rem;
 }

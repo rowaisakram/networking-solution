@@ -1,6 +1,17 @@
+@media (min-width: 1480px) {
+  .hero-section-wrapper {
+    border-radius: 1rem;
+    max-width: 1470px;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 1200px) {
   .hero-section-wrapper .container > div:first-child > div:first-child {
     padding-top: 30px;
+  }
+  /*Content*/
+  .content-wrapper .container > div:nth-child(2) > div {
+    max-width: 32%;
   }
 }
 @media (max-width: 993px) {
@@ -19,6 +30,12 @@
   }
   .hero-section-wrapper .container figure img {
     max-width: 80%;
+  }
+  .hero-section-wrapper .container figure img {
+    margin-bottom: -9rem;
+  }
+  .btn {
+    padding: 15px 22px;
   }
   .hero-section-wrapper h5 {
     padding-right: 0;
@@ -40,13 +57,30 @@
   .hero-section-wrapper .container figure img {
     margin-bottom: -5rem;
   }
+  /*content*/
+  .content-wrapper {
+    padding-top: 100px;
+  }
+  .content-wrapper .container > div:nth-child(2) > div {
+    max-width: 45%;
+  }
 }
 @media (max-width: 424.9px) {
   /*hero-section*/
   .hero-section-wrapper .container > div:first-child {
     padding: 25px 0px;
   }
+  .hero-section-wrapper .container div:first-child {
+    padding: 25px 0px;
+  }
   .hero-section-wrapper .container figure img {
     margin-bottom: -3rem;
+  }
+  /*Content*/
+  .content-wrapper {
+    padding-top: 60px;
+  }
+  .content-wrapper .container > div:nth-child(2) > div {
+    max-width: 100%;
   }
 }
