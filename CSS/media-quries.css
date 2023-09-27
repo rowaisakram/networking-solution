@@ -45,6 +45,13 @@
     display: flex;
     justify-content: center;
   }
+  /*Banner-Section*/
+  .banner-wrapper {
+    padding-top: 70px;
+  }
+  .banner-wrapper .container > div:first-child > div {
+    margin-left: 4%;
+  }
 }
 @media (max-width: 768px) {
   /*hero-section*/
@@ -64,6 +71,26 @@
   .content-wrapper .container > div:nth-child(2) > div {
     max-width: 45%;
   }
+  /*Banner*/
+  /*banner-1*/
+  .banner-wrapper > div:first-child > div:first-child figure img {
+    max-width: 80%;
+  }
+  .banner-wrapper .container > div:first-child > div {
+    width: 100%;
+    margin-left: 0;
+  }
+  .banner-wrapper .container > div:first-child {
+    flex-direction: column;
+  }
+  .banner-wrapper .container > div:first-child > div:nth-child(2) h6,
+  .banner-wrapper .container > div:first-child > div:nth-child(2) h2,
+  .banner-wrapper .container > div:first-child > div:nth-child(2) p {
+    text-align: center;
+  }
+  .banner-wrapper {
+    padding-top: 50px;
+  }
 }
 @media (max-width: 424.9px) {
   /*hero-section*/
@@ -82,5 +109,9 @@
   }
   .content-wrapper .container > div:nth-child(2) > div {
     max-width: 100%;
+  }
+  /*Banner*/
+  .banner-wrapper {
+    padding-top: 40px;
   }
 }

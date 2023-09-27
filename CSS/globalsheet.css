@@ -84,7 +84,11 @@ h6 {
 }
 p {
   font-size: var(--body-font);
+  color: var(--text-color);
+  line-height: 28px;
+  font-weight: var(--light-font-weight);
 }
+
 /*Button*/
 .btn {
   font-family: var(--font-family);
