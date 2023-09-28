@@ -3,15 +3,54 @@
     border-radius: 1rem;
     max-width: 1470px;
     margin: 0 auto;
+    margin-top: 20px;
   }
 }
 @media (max-width: 1200px) {
+  .hero-section-wrapper h3 {
+    padding-right: 4rem;
+  }
+  /*hero-section*/
   .hero-section-wrapper .container > div:first-child > div:first-child {
     padding-top: 30px;
+  }
+  .btn {
+    padding: 16px 24px;
   }
   /*Content*/
   .content-wrapper .container > div:nth-child(2) > div {
     max-width: 32%;
+  }
+  /*banner*/
+  .banner-wrapper {
+    padding-top: 80px;
+  }
+  /*banner-2*/
+  .banner-2-wrapper .container > div:first-child > div:first-child {
+    margin-top: 20px;
+  }
+  .banner-2-wrapper
+    .container
+    div:first-child
+    > div:nth-child(2)
+    > div:nth-child(2) {
+    padding: 15px;
+  }
+  .banner-2-wrapper
+    .container
+    div:first-child
+    > div:nth-child(2)
+    > div:nth-child(3) {
+    padding: 20px;
+  }
+  .banner-2-wrapper
+    .container
+    div:first-child
+    > div:nth-child(2)
+    > div:nth-child(3)
+    > div:first-child
+    svg {
+    width: 9rem !important;
   }
 }
 @media (max-width: 993px) {
@@ -37,7 +76,7 @@
   .btn {
     padding: 15px 22px;
   }
-  .hero-section-wrapper h5 {
+  .hero-section-wrapper h3 {
     padding-right: 0;
   }
   .hero-section-wrapper .container div:first-child > div:nth-child(2) {
@@ -46,11 +85,67 @@
     justify-content: center;
   }
   /*Banner-Section*/
+  /*banner-1*/
   .banner-wrapper {
     padding-top: 70px;
   }
   .banner-wrapper .container > div:first-child > div {
     margin-left: 4%;
+  }
+  /*banner-2*/
+  .banner-2-wrapper {
+    padding-top: 70px;
+  }
+  .banner-2-wrapper .container > div:first-child {
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner-2-wrapper
+    .container
+    > div:first-child
+    > div:first-child
+    > div:first-child
+    > div:nth-child(4)
+    ul {
+    align-items: center;
+    white-space: nowrap;
+  }
+  .banner-2-wrapper
+    .container
+    > div:first-child
+    > div:first-child
+    > div:first-child {
+    padding-right: 0;
+  }
+  .banner-2-wrapper .container > div:first-child > div:first-child p {
+    margin-right: 0;
+  }
+  .banner-2-wrapper .container > div:first-child > div:nth-child(2) {
+    margin-left: 0;
+    padding-top: 20px;
+  }
+  .banner-2-wrapper
+    .container
+    div:first-child
+    > div:nth-child(2)
+    > div:nth-child(2) {
+    left: 3%;
+  }
+  .banner-2-wrapper
+    .container
+    div:first-child
+    > div:nth-child(2)
+    > div:nth-child(3) {
+    left: 0%;
+  }
+  .banner-2-wrapper
+    .container
+    div:first-child
+    > div:nth-child(2)
+    > div:nth-child(3)
+    > div:first-child
+    svg {
+    width: 8rem !important;
   }
 }
 @media (max-width: 768px) {
@@ -91,6 +186,26 @@
   .banner-wrapper {
     padding-top: 50px;
   }
+  .banner-2-wrapper
+    .container
+    div:first-child
+    > div:nth-child(2)
+    > div:nth-child(3) {
+    left: -2%;
+  }
+  .banner-2-wrapper
+    .container
+    div:first-child
+    > div:nth-child(2)
+    > div:nth-child(2) {
+    left: -2%;
+  }
+  .banner-2-wrapper .container > div:first-child > div:nth-child(2) {
+    margin-left: 3%;
+  }
+  .banner-2-wrapper {
+    padding-top: 50px;
+  }
 }
 @media (max-width: 424.9px) {
   /*hero-section*/
@@ -113,5 +228,60 @@
   /*Banner*/
   .banner-wrapper {
     padding-top: 40px;
+  }
+  /*banner-2*/
+  .banner-2-wrapper {
+    padding-top: 30px;
+  }
+  .banner-2-wrapper
+    .container
+    div:first-child
+    > div:nth-child(2)
+    > div:nth-child(3)
+    > div:first-child
+    svg {
+    width: 7rem !important;
+  }
+  .banner-2-wrapper
+    .container
+    div:first-child
+    > div:nth-child(2)
+    > div:nth-child(3)
+    > div:first-child {
+    margin-bottom: 5px;
+  }
+  .banner-2-wrapper
+    .container
+    div:first-child
+    > div:nth-child(2)
+    > div:nth-child(3) {
+    padding: 10px;
+  }
+  .banner-2-wrapper .container > div:first-child > div:nth-child(2) {
+    margin-left: 15%;
+  }
+  .banner-2-wrapper
+    .container
+    div:first-child
+    > div:nth-child(2)
+    > div:nth-child(3) {
+    left: -13%;
+  }
+  .banner-2-wrapper
+    .container
+    div:first-child
+    > div:nth-child(2)
+    > div:nth-child(2) {
+    left: -18%;
+  }
+  .banner-2-wrapper
+    .container
+    div:first-child
+    > div:nth-child(2)
+    > div:nth-child(2) {
+    padding: 10px;
+  }
+  .progress-text::after {
+    font-size: 12px;
   }
 }

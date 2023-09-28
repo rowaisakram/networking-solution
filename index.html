@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="./CSS/globalsheet.css" />
     <link rel="stylesheet" href="./CSS/index.css" />
     <link rel="stylesheet" href="./CSS/media-quries.css" />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.12.0.min.js"
+    ></script>
+
+    <script src="./script/script.js"></script>
   </head>
   <body>
     <header class="wrapper position-sticky">
@@ -71,14 +77,16 @@
                 <span class="gradient-1 text-gradient">solutions</span> for
                 worldwide communication
               </h1>
-              <h5>
+              <h3>
                 We're a company that focuses on establishing long-term
                 relationships with customers.
-              </h5>
+              </h3>
               <button class="btn gradient-1">Explore Now</button>
             </div>
             <div class="flex-1">
-              <figure><img src="./assets/Img/3d6.png" alt="" /></figure>
+              <figure>
+                <img src="./assets/Img/3d6.png" alt="hero image" />
+              </figure>
             </div>
           </div>
         </div>
@@ -113,7 +121,7 @@
                 </svg>
               </div>
               <div>
-                <h3>Software & Integration</h3>
+                <h4>Software & Integration</h4>
                 <p>
                   Duis mollis gravida commodo id luctus erat porttitor ligula,
                   eget lacinia odio sem aget elit nullam quis risus eget.
@@ -138,7 +146,7 @@
                 </svg>
               </div>
               <div>
-                <h3>Network Security</h3>
+                <h4>Network Security</h4>
                 <p>
                   Duis mollis gravida commodo id luctus erat porttitor ligula,
                   eget lacinia odio sem aget elit nullam quis risus eget.
@@ -163,7 +171,7 @@
                 </svg>
               </div>
               <div>
-                <h3>Cloud Services</h3>
+                <h4>Cloud Services</h4>
                 <p>
                   Duis mollis gravida commodo id luctus erat porttitor ligula,
                   eget lacinia odio sem aget elit nullam quis risus eget.
@@ -222,7 +230,7 @@
                 </svg>
               </div>
               <div>
-                <h3>Wireless Networking</h3>
+                <h4>Wireless Networking</h4>
                 <p>
                   Duis mollis gravida commodo id luctus erat porttitor ligula,
                   eget lacinia odio sem aget elit nullam quis risus eget.
@@ -247,7 +255,7 @@
                 </svg>
               </div>
               <div>
-                <h3>IT Solutions</h3>
+                <h4>IT Solutions</h4>
                 <p>
                   Duis mollis gravida commodo id luctus erat porttitor ligula,
                   eget lacinia odio sem aget elit nullam quis risus eget.
@@ -272,7 +280,7 @@
                 </svg>
               </div>
               <div>
-                <h3>Server Configuration</h3>
+                <h4>Server Configuration</h4>
                 <p>
                   Duis mollis gravida commodo id luctus erat porttitor ligula,
                   eget lacinia odio sem aget elit nullam quis risus eget.
@@ -284,12 +292,12 @@
       </div>
     </section>
     <section class="banner-1">
-      <div class="banner-wrapper">
+      <div class="banner-wrapper light-bg">
         <div class="container">
           <div class="d-flex flex-wrap">
             <div class="flex-1">
               <figure class="d-flex align-items-center justify-content-center">
-                <img src="./assets/Img/3d2.png" alt="" />
+                <img src="./assets/Img/3d2.png" alt="idea image" />
               </figure>
             </div>
             <div class="flex-1">
@@ -390,6 +398,176 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="banner-2">
+      <div class="banner-2-wrapper light-bg">
+        <div class="container">
+          <div class="d-flex flex-wrap">
+            <div class="flex-1">
+              <div>
+                <h6 class="text-gradient gradient-1">
+                  WHAT MAKES US DIFFERENT?
+                </h6>
+                <h2>
+                  We make spending stress free so you have the perfect control.
+                </h2>
+                <p>
+                  Etiam porta sem malesuada magna mollis euismod. Donec
+                  ullamcorper nulla non metus auctor fringilla. Morbi leo risus,
+                  porta ac consectetur ac, vestibulum at eros. Fusce dapibus,
+                  tellus ac cursus. Integer posuere erat a ante venenatis
+                  dapibus posuere velit.
+                </p>
+                <div>
+                  <ul class="d-flex flex-column">
+                    <li class="d-flex align-items-center">
+                      <svg
+                        class="tick-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <circle cx="12" cy="12" r="10" fill="yellow" />
+
+                        <path
+                          d="M5 10l3 3 7-7"
+                          stroke="red"
+                          stroke-width="1.5"
+                          fill="none"
+                          transform="translate(2, 2)"
+                        />
+                      </svg>
+                      Aenean quam ornare. Curabitur blandit.
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg
+                        class="tick-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <circle cx="12" cy="12" r="10" fill="yellow" />
+                        <path
+                          d="M5 10l3 3 7-7"
+                          stroke="red"
+                          stroke-width="1.5"
+                          fill="none"
+                          transform="translate(2, 2)"
+                        />
+                      </svg>
+                      Nullam quis risus eget urna mollis ornare.
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg
+                        class="tick-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <circle cx="12" cy="12" r="10" fill="yellow" />
+
+                        <path
+                          d="M5 10l3 3 7-7"
+                          stroke="red"
+                          stroke-width="1.5"
+                          fill="none"
+                          transform="translate(2, 2)"
+                        />
+                      </svg>
+                      Donec id elit non mi porta gravida at eget.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex-1 position-relative d-flex align-items-center justify-content-center"
+            >
+              <figure>
+                <img src="./assets/Img/about27.jpg" alt="about image" />
+              </figure>
+              <div
+                class="d-flex position-absolute justify-content-center align-items-center"
+              >
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 256 234.66"
+                    class="svg-inject icon-svg solid-duo icon-svg-sm text-grape-fuchsia me-3"
+                  >
+                    <circle
+                      class="fill-secondary"
+                      cx="128"
+                      cy="149.33"
+                      r="21.33"
+                    ></circle>
+                    <path
+                      class="fill-secondary"
+                      d="M162.67 234.66H93.34a8 8 0 01-8-8v-16a29.36 29.36 0 0129.33-29.33h26.67a29.35 29.35 0 0129.33 29.33v16a8 8 0 01-8 8zm32-64h-14.19a55.46 55.46 0 0116.85 40v2.67H216a8.06 8.06 0 008-8V200a29.32 29.32 0 00-29.33-29.34zm-133.34 0A29.31 29.31 0 0032 200v5.35a8.06 8.06 0 008 8h18.67v-2.67a55.46 55.46 0 0116.85-40z"
+                    ></path>
+                    <circle
+                      class="fill-secondary"
+                      cx="74.67"
+                      cy="138.66"
+                      r="21.33"
+                    ></circle>
+                    <circle
+                      class="fill-secondary"
+                      cx="181.33"
+                      cy="138.66"
+                      r="21.33"
+                    ></circle>
+                    <path
+                      class="fill-primary"
+                      d="M27.2 162.94a52.21 52.21 0 018.8-6.56A42.48 42.48 0 01107.73 112a41 41 0 0140.54 0A42.48 42.48 0 01220 156.38a55.09 55.09 0 015.83 4 64.4 64.4 0 00-26.65-118.49A81.31 81.31 0 00128 0C90.19 0 57.39 26.3 49.1 62.18 21.54 65.07 0 88.22 0 116.26c0 19.93 11 37.21 27.2 46.68z"
+                    ></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="counter-value">25000</h3>
+                  <p>Happy Clients</p>
+                </div>
+              </div>
+              <div
+                class="position-absolute d-flex flex-column align-items-center justify-content-center"
+              >
+                <div class="position-relative">
+                  <svg viewBox="0 0 100 50" style="width: 10rem">
+                    <path
+                      d="M 50,50 m -47,0 a 47,47 0 1 1 94,0"
+                      stroke-width="6"
+                      fill-opacity="0"
+                    ></path>
+                    <path
+                      d="M 50,50 m -47,0 a 47,47 0 1 1 94,0"
+                      stroke-width="6"
+                      fill-opacity="0"
+                      style="
+                        stroke-dasharray: 147.708, 147.708;
+                        stroke-dashoffset: 29.5416;
+                      "
+                    ></path>
+                  </svg>
+
+                  <div class="progress-text position-absolute counter-value">
+                    80
+                  </div>
+                </div>
+                <h5>Time Saved</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="achievements">
+      <div class="achievements-wrapper light-bg">
+        <div class="container">
+          <div class="d-flex">
+            <div class="flex-1">
+              <h2>We are proud of our works</h2>
+            </div>
+            <div class="flex-2"></div>
           </div>
         </div>
       </div>
