@@ -12,6 +12,7 @@
   --white-color: #ffff;
   --bg-light-color: #f8f8f8;
   --bg-progress: #fcf0f7;
+  --border-bottom-color: #cfceea;
   --h1-font-size: 46px;
   --h2-font-size: 38px;
   --h3-font-size: 23px;
@@ -184,4 +185,14 @@ ul li svg path {
 ul li svg {
   width: 2rem;
   height: 2rem;
+}
+blockquote {
+  margin: 0;
+}
+blockquote p::before {
+  content: "\201C";
+}
+
+blockquote p::after {
+  content: "\201D";
 }

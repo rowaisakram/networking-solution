@@ -52,6 +52,13 @@
     svg {
     width: 9rem !important;
   }
+  /*achievements*/
+  .achievements-wrapper .container > div:nth-child(2) > div {
+    max-width: 22.5%;
+  }
+  .achievements-wrapper .container > div:nth-child(2) > div {
+    padding: 30px;
+  }
 }
 @media (max-width: 993px) {
   .navbar .container div:first-child > div:nth-child(3) > ul > li:last-child {
@@ -95,6 +102,7 @@
   /*banner-2*/
   .banner-2-wrapper {
     padding-top: 70px;
+    padding-bottom: 70px;
   }
   .banner-2-wrapper .container > div:first-child {
     flex-direction: column;
@@ -147,7 +155,33 @@
     svg {
     width: 8rem !important;
   }
+  /*achievement*/
+  .achievements-wrapper .container > div:first-child {
+    flex-direction: column;
+    text-align: center;
+  }
+  .achievements-wrapper .container > div:first-child > div:first-child {
+    padding-right: 0;
+  }
+  .achievements-wrapper
+    .container
+    > div:first-child
+    > div:first-child
+    > div:first-child {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .achievements-wrapper .container > div:nth-child(2) > div {
+    max-width: 40%;
+  }
+  .achievements-wrapper .container > div:nth-child(2) {
+    justify-content: center;
+  }
+  .achievements-wrapper .container > div:first-child {
+    padding: 60px 0px;
+  }
 }
+
 @media (max-width: 768px) {
   /*hero-section*/
   .hero-section-wrapper .container > div:first-child {
@@ -205,6 +239,13 @@
   }
   .banner-2-wrapper {
     padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .achievements-wrapper .container > div:nth-child(2) > div {
+    max-width: 47%;
+  }
+  .achievements-wrapper .container > div:nth-child(2) {
+    row-gap: 130px;
   }
 }
 @media (max-width: 424.9px) {
@@ -232,6 +273,7 @@
   /*banner-2*/
   .banner-2-wrapper {
     padding-top: 30px;
+    padding-bottom: 40px;
   }
   .banner-2-wrapper
     .container
@@ -283,5 +325,16 @@
   }
   .progress-text::after {
     font-size: 12px;
+  }
+  /*achievements*/
+  .achievements-wrapper .container > div:nth-child(2) > div {
+    max-width: 80%;
+    text-align: center;
+  }
+  .achievements-wrapper .container > div:nth-child(2) {
+    row-gap: 70px;
+  }
+  .achievements-wrapper .container > div:first-child {
+    padding: 40px 0px;
   }
 }

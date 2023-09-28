@@ -161,6 +161,7 @@
 /*banner -2*/
 .banner-2-wrapper {
   padding-top: 100px;
+  padding-bottom: 140px;
 }
 .banner-2-wrapper .container > div:first-child > div:first-child {
   margin-top: 75px;
@@ -278,4 +279,87 @@
   > div:nth-child(2)
   h3::after {
   content: "+";
+}
+/*Achievements Banner*/
+.achievements-wrapper {
+  background-color: hsla(0, 0%, 100%, 0.5);
+  background-image: url("../assets/Img/bg22.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.achievements-wrapper
+  .container
+  > div:first-child
+  > div:nth-child(2)
+  > div:first-child
+  h2:nth-child(2):after {
+  content: "+";
+}
+.achievements-wrapper
+  .container
+  > div:first-child
+  > div:nth-child(2)
+  > div:nth-child(2)
+  h2:nth-child(2):after {
+  content: "x";
+}
+.achievements-wrapper
+  .container
+  > div:first-child
+  > div:nth-child(2)
+  > div:nth-child(3)
+  h2:nth-child(2):after {
+  content: "%";
+}
+.achievements-wrapper .container > div:first-child {
+  padding: 90px 0px;
+}
+.achievements-wrapper .container > div:first-child > div:first-child {
+  padding-right: 120px;
+}
+.achievements-wrapper
+  .container
+  > div:first-child
+  > div:first-child
+  > div:first-child {
+  margin-right: 60px;
+}
+.achievements-wrapper
+  .container
+  > div:first-child
+  > div:first-child
+  > div:first-child
+  h2 {
+  margin-bottom: 15px;
+}
+.achievements-wrapper
+  .container
+  > div:first-child
+  > div:first-child
+  > div:first-child
+  h4 {
+  color: var(--text-color);
+  font-weight: var(--light-font-weight);
+  line-height: 34px;
+}
+.achievements-wrapper .container > div:first-child > div:nth-child(2) h2 {
+  margin: 10px 0;
+}
+.achievements-wrapper .container > div:nth-child(2) {
+  gap: clamp(15px, 4vw, 30px);
+  row-gap: 140px;
+}
+.achievements-wrapper .container > div:nth-child(2) > div {
+  background-color: var(--white-color);
+  max-width: 23%;
+  padding: 40px;
+  border-radius: 0.5rem;
+  border-bottom: 6px solid var(--border-bottom-color);
+  margin-bottom: -14%;
+}
+.achievements-wrapper .container > div:nth-child(2) p:first-child {
+  margin-bottom: 20px;
+}
+.achievements-wrapper .container > div:nth-child(2) h5 {
+  margin-bottom: 5px;
 }
