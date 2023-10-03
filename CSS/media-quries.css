@@ -59,6 +59,17 @@
   .achievements-wrapper .container > div:nth-child(2) > div {
     padding: 30px;
   }
+  /*Case Studies*/
+
+  .case-studies-wrapper {
+    padding-top: 17rem;
+  }
+  .overlay {
+    height: 59%;
+  }
+  .circle-bullet {
+    width: 6.5rem;
+  }
 }
 @media (max-width: 993px) {
   .navbar .container div:first-child > div:nth-child(3) > ul > li:last-child {
@@ -180,6 +191,37 @@
   .achievements-wrapper .container > div:first-child {
     padding: 60px 0px;
   }
+  /*Case Studies*/
+
+  .case-studies-wrapper {
+    padding-top: 14rem;
+  }
+  .overlay {
+    height: 54%;
+  }
+  /*our mission*/
+  .our-mission-wrapper .container > div:first-child {
+    flex-direction: column;
+  }
+  .our-mission-wrapper .container > div:first-child > div:nth-child(2) {
+    padding-top: 50px;
+  }
+  .our-mission-wrapper .container > div:first-child > div:nth-child(2) h6,
+  .our-mission-wrapper .container > div:first-child > div:nth-child(2) h2,
+  .our-mission-wrapper .container > div:first-child > div:nth-child(2) p {
+    text-align: center;
+  }
+
+  .our-mission-wrapper {
+    padding-top: 60px;
+  }
+
+  .circle-bullet {
+    width: 8.5rem;
+  }
+  .our-mission-wrapper .container > div:nth-child(2) p {
+    padding-right: 20px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -246,6 +288,28 @@
   }
   .achievements-wrapper .container > div:nth-child(2) {
     row-gap: 130px;
+  }
+  /*Case Studies*/
+
+  .case-studies-wrapper {
+    padding-top: 11rem;
+  }
+  .overlay {
+    height: 58%;
+  }
+  /*our mission*/
+  .our-mission-wrapper {
+    padding-top: 50px;
+  }
+  .our-mission-wrapper .container > div:nth-child(2) {
+    padding: 50px 0;
+  }
+  .our-mission-wrapper .container > div:nth-child(2) {
+    flex-direction: column;
+  }
+  .circle-bullet {
+    width: 2.5rem;
+    height: 2rem;
   }
 }
 @media (max-width: 424.9px) {
@@ -336,5 +400,39 @@
   }
   .achievements-wrapper .container > div:first-child {
     padding: 40px 0px;
+  }
+  /*Case Studies*/
+
+  .case-studies-wrapper {
+    padding-top: 7rem;
+  }
+  .overlay {
+    height: 63%;
+  }
+  /*our Mission*/
+  .our-mission-wrapper .container > div:first-child > div:nth-child(2) {
+    padding-top: 30px;
+  }
+  .our-mission-wrapper
+    .container
+    > div:first-child
+    > div:nth-child(2)
+    > div:first-child
+    > div:nth-child(4) {
+    flex-direction: column;
+  }
+  ul li svg {
+    width: 1rem;
+    height: 2rem;
+  }
+  .our-mission-wrapper {
+    padding-top: 40px;
+  }
+  .circle-bullet {
+    width: 2.5rem;
+    height: 1.5rem;
+  }
+  .our-mission-wrapper .container > div:nth-child(2) {
+    padding: 40px 0;
   }
 }
