@@ -579,10 +579,9 @@
 .footer-wrapper > div:first-child > div:first-child figure img {
   margin-bottom: clamp(10px, 3vw, 20px);
 }
-.footer-wrapper > div:first-child > div:first-child > div:first-child p {
-  margin-bottom: clamp(10px, 3vw, 20px);
-}
+
 .social-links {
+  margin-top: 20px;
   gap: 20px;
 }
 .footer-wrapper > div i:first-child {
@@ -621,7 +620,7 @@
 .footer-wrapper .list-about {
   gap: clamp(10px, 3vw, 17px);
 }
-.footer-wrapper .container > div:first-child > div:last-child p {
+.footer-wrapper .container > div:first-child > div:last-child > div p {
   margin-bottom: clamp(12px, 3vw, 25px);
 }
 .form-wrapper .btn {
