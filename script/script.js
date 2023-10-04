@@ -7,7 +7,7 @@ $(document).ready(function () {
           Counter: $(this).text(),
         },
         {
-          duration: 1000,
+          duration: 1500,
           easing: "swing",
           step: function (now) {
             $(this).text(Math.ceil(now));
@@ -36,4 +36,18 @@ var swiper = new Swiper(".content", {
       slidesPerView: 3,
     },
   },
+});
+
+$("input").focus(function () {
+  $(this).parents(".form-group").addClass("focused");
+});
+
+$("input").blur(function () {
+  var inputValue = $(this).val();
+  if (inputValue == "") {
+    $(this).removeClass("filled");
+    $(this).parents(".form-group").removeClass("focused");
+  } else {
+    $(this).addClass("filled");
+  }
 });
